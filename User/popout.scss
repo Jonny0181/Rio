@@ -1,0 +1,20 @@
+.theme-dark .headerNormal-T_seeN { background-color: $level2; }
+.theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6 { background-color: $level1; }
+.theme-dark .footer-1fjuF6 { border: none; }
+.theme-dark .quickMessage-1yeL4E { background-color: $level2; border-color: $level2; }
+.role-2irmRk { border: none !important; backdrop-filter: blur(10px); padding: 16px 10px; }
+.roleCircle-3xAZ1j::before {
+    content: ""; position: absolute; width: 100%; height: 100%;
+    top: 0; left: 0; background-color: inherit; opacity: 0.43;
+    z-index: 0; pointer-events: none; border-radius: 5px; }
+.container-VSDcQc .header-2bNvm4 {
+    background-color: $level3;
+}
+.theme-dark .container-VSDcQc .sectionTag-pXyto9 {
+    background-color: $level2;
+    border-radius: 0;
+}
+.theme-dark .row-rrHHJU.selected-1pIgLL {
+    border-left: 2px solid $accent;
+    background: $level3;
+}
