@@ -1,0 +1,33 @@
+.messagesPopoutWrap-1MQ1bW {
+    background-color: $level2;
+    .header-ykumBX {
+        background-color: $level3;
+    }
+    .messageGroupWrapper-o-Zw7G {
+        background: $level1;
+        .cozy-3raOZG .messageContent-2qWWxC {
+            margin-right: 0 !important;
+        }
+        .avatar-1BDn8e {
+            margin-top: 7px;
+        }
+        .container-1ov-mD {
+            margin-left: -3rem;
+            padding-top: 1.125rem;
+        }
+        .imageWrapper-2p5ogY img {
+            width: 90% !important;
+        }
+        .jumpButton-3DTcS_ {
+            background-color: $accent;
+            color: white;
+            opacity: .5;
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+    .footer-1kmXd4 {
+        background-color: $level3;
+    }
+}

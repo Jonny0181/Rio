@@ -1,0 +1,28 @@
+.input-cIJ7To, .searchBox { background-color: $level3; box-shadow: 0 0px 7px 0 $accent; }
+/* Toasts */
+    .powercord-toast {
+        background-color: $level2;
+        .header {
+            background-color: $level3;
+        }
+        .contents {
+            .inner {
+                background-color: $tp;
+                border: none;
+            }
+        }
+    }
+/* Plugins */
+    .discordTweaksSettings .tweaks .tweakCard { background-color: $level2; }
+    /* Counters */
+    body { counter-reset: plu; }
+    .powercord-plugin:after{
+        counter-increment: plu;
+        content: counter(plu) " Plugins";
+        color:transparent;
+        position:fixed;
+        margin-right: 10px;
+        top: 60px;
+        right: 40px;
+    }
+    .powercord-plugin:nth-last-child(1):after{ color: var(--text-normal); }
