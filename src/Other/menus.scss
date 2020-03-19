@@ -5,7 +5,10 @@
     background-color: var(--level3);
 }
 .menu-Sp6bN1 { background-color: var(--level2) !important; }
-.contextMenu-HLZMGh { background-color: var(--level2); }
+.contextMenu-HLZMGh {
+    background-color: var(--level2);
+    .button-1I8KM5 { background-color: rgba($color: var(--accent), $alpha: .3) }
+}
 .clickable-11uBi-:hover, .selected-BYpGTS { background-color: var(--level3); border-left: solid 2px var(--accent); }
 .itemBase-tz5SeC { padding: 0 5px; }
 /* Android Style Dialogs */
