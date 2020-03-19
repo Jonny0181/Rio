@@ -1,15 +1,15 @@
 .members-1998pB {
-    background-color: $level2;
+    background-color: var(--level2);
     padding: 0;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    width: $members-width;
+    width: var(--members-width);
     transition: all .5s ease-in-out;
     &:hover {
-        width: $members-width-hover;
+        width: var(--members-width-hover);
         .selected-aXhQR6 {
             .layout-2DM8Md {
-                width: $members-width-hover;
+                width: var(--members-width-hover);
             }
         }
     }
@@ -28,7 +28,7 @@
         .mulitplePlaceholderUsername-pogq9I,
         .placeholderAvatar-damqh6,
         .placeholderUsername-2B_OA9 {
-            background-color: $accent;
+            background-color: var(--accent);
         }
     }
     &:hover {

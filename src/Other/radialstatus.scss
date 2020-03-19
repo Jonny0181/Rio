@@ -8,7 +8,7 @@
         --rs-online-color: var(--online); /* color for online status */
         --rs-idle-color: var(--idle); /* color for idle status */
         --rs-dnd-color: var(--dnd); /* color for dnd status */
-        --rs-offline-color: $tp; /* color for offline status */
+        --rs-offline-color: var(--tp); /* color for offline status */
         --rs-invisible-color: var(--invisible); /* color for invisible status - Note this will only show for your own invisibility */
         --rs-streaming-color: var(--streaming); /* color for streaming status */
         --rs-avatar-shape: 50%;

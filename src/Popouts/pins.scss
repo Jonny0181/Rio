@@ -1,10 +1,10 @@
 .messagesPopoutWrap-1MQ1bW {
-    background-color: $level2;
+    background-color: var(--level2);
     .header-ykumBX {
-        background-color: $level3;
+        background-color: var(--level3);
     }
     .messageGroupWrapper-o-Zw7G {
-        background: $level1;
+        background: var(--level1);
         .cozy-3raOZG .messageContent-2qWWxC {
             margin-right: 0 !important;
         }
@@ -19,7 +19,7 @@
             width: 90% !important;
         }
         .jumpButton-3DTcS_ {
-            background-color: $accent;
+            background-color: var(--accent);
             color: white;
             opacity: .5;
             &:hover {
@@ -28,6 +28,6 @@
         }
     }
     .footer-1kmXd4 {
-        background-color: $level3;
+        background-color: var(--level3);
     }
 }

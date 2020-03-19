@@ -1,11 +1,11 @@
 /* Join/Create Guilds */
 .theme-dark .root-1gCeng {
-    background-color: $level1;
+    background-color: var(--level1);
     .header-3ZP1MY {
         color: white;
     }
     .action-1lSjCi {
-        background-color: $level2 !important;
+        background-color: var(--level2) !important;
         border: none !important;
         .colorStandard-2KCXvj {
             color: white;
@@ -20,13 +20,13 @@
     .template-1dZv66 {
         color: white;
         border: none;
-        background-color: $level2;
+        background-color: var(--level2);
         &:hover {
-            background-color: $level3;
+            background-color: var(--level3);
         }
     }
     .templateEmphasized-2AIL66 {
-        background-color: $accent;
+        background-color: var(--accent);
     }
     .title-1NPKvY {
         color: white;
@@ -35,9 +35,9 @@
         color: white;
     }
     .channelListContainer-1VKoaZ {
-        background-color: $level2;
+        background-color: var(--level2);
         .unreadIndicator-2zrk6b {
-            background: $accent;
+            background: var(--accent);
             top: 11px;
             border-radius: 0;
             width: 7px;
@@ -48,7 +48,7 @@
         }
         .unreadBadge-Upv6tg {
             border-radius: 3px;
-            background-color: $accent !important;
+            background-color: var(--accent) !important;
         }
     }
     .title-1EYJBg {

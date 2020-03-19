@@ -1,19 +1,19 @@
-.input-cIJ7To, .searchBox { background-color: $level3; box-shadow: 0 0px 7px 0 $accent; }
+.input-cIJ7To, .searchBox { background-color: var(--level3); box-shadow: 0 0px 7px 0 var(--accent); }
 /* Toasts */
     .powercord-toast {
-        background-color: $level2;
+        background-color: var(--level2);
         .header {
-            background-color: $level3;
+            background-color: var(--level3);
         }
         .contents {
             .inner {
-                background-color: $tp;
+                background-color: var(--tp);
                 border: none;
             }
         }
     }
 /* Plugins */
-    .discordTweaksSettings .tweaks .tweakCard { background-color: $level2; }
+    .discordTweaksSettings .tweaks .tweakCard { background-color: var(--level2); }
     /* Counters */
     body { counter-reset: plu; }
     .powercord-plugin:after{

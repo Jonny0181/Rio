@@ -1,5 +1,5 @@
 .theme-dark .uploadModal-2ifh8j {
-    background-color: $level1;
+    background-color: var(--level1);
     width: 630px;
     min-height: 430px;
     .icon-kyxXVr.image-2yrs5j {
@@ -16,7 +16,7 @@
             width: 251px;
             .scrollableContainer-2NUZem.webkit-HjD9Er {
                 height: 45px;
-                background-color: $level2;
+                background-color: var(--level2);
                 box-shadow: none;
             }
         }
@@ -30,7 +30,7 @@
         font-size: 12px;
     }
     label.checkboxWrapper-SkhIWG.alignCenter-MrlN6q {
-        background-color: $level2;
+        background-color: var(--level2);
         color: #fff;
         height: 45px !important;
         margin-right: 10px;
@@ -40,28 +40,28 @@
         margin-left: 260px;
     }
     .checked-3_4uQ9 {
-        background-color: $accent;
-        border-color: $accent !important;
+        background-color: var(--accent);
+        border-color: var(--accent) !important;
         polyline {
             stroke: white;
         }
     }
     .lookLink-9FtZy-.colorPrimary-3b3xI6 {
-        background-color: $level2;
+        background-color: var(--level2);
         margin-right: 10px;
         border-radius: 5px;
         height: 44px;
     }
     .lookFilled-1Gx00P.colorBrand-3pXr91 {
         height: 43px;
-        background-color: $accent;
+        background-color: var(--accent);
     }
     .checkbox-1ix_J3.flexCenter-3_1bcw.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs.box-mmYMsp {
-        border: solid 3px $accent;
+        border: solid 3px var(--accent);
         border-radius: 50px;
     }
     .footer-3mqk7D {
         box-shadow: none;
-        background-color: $tp;
+        background-color: var(--tp);
     }
 }

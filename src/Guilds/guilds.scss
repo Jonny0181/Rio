@@ -9,32 +9,32 @@
 }
 
 
-.scroller-2TZvBN { background-color: $level2 !important; }
-#app-mount .listItemWrapper-3X98Pc .childWrapper-anI2G9 { background-color: $tp !important; }
+.scroller-2TZvBN { background-color: var(--level2) !important; }
+#app-mount .listItemWrapper-3X98Pc .childWrapper-anI2G9 { background-color: var(--tp) !important; }
 .wrapper-1Rf91z .scroller-2FKFPG .wrapper-21YSNc .expandedFolderBackground-2sPsd- { top: 49% !important; height: 45px !important; }
 .wrapper-1Rf91z .scroller-2FKFPG .wrapper-21YSNc svg:not([name="Folder"]) { width: 75%; height: 75%; }
 .circleIconButton-jET_ig {
-	background-color: $tp;
-    color: $accent;
+	background-color: var(--tp);
+    color: var(--accent);
     transition: all .3s ease-in-out;
     &:hover {
-        background-color: $tp;
-        color: $accent;
+        background-color: var(--tp);
+        color: var(--accent);
         transform: scale(1.3);
     }
 }
 .circleIconButton-jET_ig.selected-ugP_am {
-    background-color: $tp;
-    color: $accent;
+    background-color: var(--tp);
+    color: var(--accent);
     transform: scale(1.3);
 }
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 { background-color: $tp !important; }
-.item-2hkk8m { background-color: $accent; }
-.guildSeparator-3s64Iy { background-color: $accent !important; margin-top: 0 !important }
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 { background-color: var(--tp) !important; }
+.item-2hkk8m { background-color: var(--accent); }
+.guildSeparator-3s64Iy { background-color: var(--accent) !important; margin-top: 0 !important }
 /* Custom icon */
     .listItem-2P_4kh:nth-child(1) .listItemWrapper-3X98Pc .wrapper-25eVIn svg foreignObject .wrapper-1BJsBx .childWrapper-anI2G9 .homeIcon-tEMBK1 {
         background: url("https://i.imgur.com/ibXk3u9.png"); background-size: contain; background-repeat: no-repeat;
         background-position: center; width: 30px; height: 30px; margin-top: -2px; }
-    .homeIcon-tEMBK1 path { fill: $tp; }
+    .homeIcon-tEMBK1 path { fill: var(--tp); }
 /* Mention Notifications */
     .wrapper-232cHJ, .numberBadge-2s8kKX { border-radius: 3px; }

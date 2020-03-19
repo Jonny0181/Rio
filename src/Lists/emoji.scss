@@ -19,7 +19,7 @@
     z-index:1; animation:emoteDescription 300ms ease; transition:250ms ease opacity; opacity:.9; }
 .emojiPicker-3m1S-j .noSearchResultsContainer-3Dee0U { height:275px; width:325px; }
 .emojiPicker-3m1S-j ::-webkit-scrollbar { display:none; }
-.emojiPicker-3m1S-j { background-color: $level2; }
-.infoBar-U6oBFk { background-color: $level3; }
-.emojiPicker-3m1S-j .categories-1feg4n { background-color: $level3; }
-.container-2XeR5Z { background-color: $level3; }
+.emojiPicker-3m1S-j { background-color: var(--level2); }
+.infoBar-U6oBFk { background-color: var(--level3); }
+.emojiPicker-3m1S-j .categories-1feg4n { background-color: var(--level3); }
+.container-2XeR5Z { background-color: var(--level3); }

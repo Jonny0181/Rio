@@ -3,33 +3,33 @@
 .cozy-3raOZG .messageContent-2qWWxC { margin-right: 15rem; }
 .mouse-mode .wrapper-2a6GCs:hover .timestampVisibleOnHover-2bQeI4 { display: none; }
 .chatContent-a9vAAp { padding-right: 49px; }
-.theme-dark .message-2qRu38 { background-color: $level2; }
+.theme-dark .message-2qRu38 { background-color: var(--level2); }
 .messagesWrapper-3lZDfY, .scroller-3sQKXg { width: 117%; }
-.message-2qnXI6.selected-2P5D_Z, .mouse-mode .message-2qnXI6:hover:not(.mentioned-xhSam7):not(.localBot-GrCgVt) { background-color: $tp; }
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece { background-color: $tp; border: none; }
+.message-2qnXI6.selected-2P5D_Z, .mouse-mode .message-2qnXI6:hover:not(.mentioned-xhSam7):not(.localBot-GrCgVt) { background-color: var(--tp); }
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece { background-color: var(--tp); border: none; }
 .scroller-2FKFPG::-webkit-scrollbar-thumb, .scroller-2FKFPG::-webkit-scrollbar-track { border-width: 5px; }
-.messages-3amgkR { background-color: $level1 !important; }
-.embedFull-2tM8-- { background-color: $level2; }
+.messages-3amgkR { background-color: var(--level1) !important; }
+.embedFull-2tM8-- { background-color: var(--level2); }
 .content-yTz4x3:before { display: none; }
-.theme-dark .attachment-33OFj0 { background-color: $level2; border: none; }
-.cancelButton-3hVEV6, .downloadButton-23tKQp { color: $accent; }
-.reaction-1hd86g { background-color: $level2; }
-.markup-2BOw-j code { background-color: $level2; }
-.blockquoteDivider-2hH8H6 { background-color: $accent; }
+.theme-dark .attachment-33OFj0 { background-color: var(--level2); border: none; }
+.cancelButton-3hVEV6, .downloadButton-23tKQp { color: var(--accent); }
+.reaction-1hd86g { background-color: var(--level2); }
+.markup-2BOw-j code { background-color: var(--level2); }
+.blockquoteDivider-2hH8H6 { background-color: var(--accent); }
 .blockquoteContainer-U5TVEi .blockquoteDivider-2hH8H6 { width: 3px; }
-.scrollerSettings-3ADeE- { background-color: $level1; }
-.wrapper-35wsBm { background-color: $level2; }
+.scrollerSettings-3ADeE- { background-color: var(--level1); }
+.wrapper-35wsBm { background-color: var(--level2); }
 .isUnread-3Ef-o9 .content-1o0f9g { color: white; }
 .unreadPillCap-3_K2q2 { display: none; }
 .unreadPill-2HyYtt { font-weight: 500; width: 35px; border-radius: 100px; padding: 6.5px; right: 170px; }
 .unreadPill-2HyYtt, .unreadPillCap-3_K2q2 { height: 5px; }
 .content-1o0f9g { flex: 1 0 auto; margin-top: -20px; font-weight: 500; padding: 0; }
-.divider-JfaTT5 { border: 1px solid; border-image: linear-gradient(90deg, $accent 15%, $tp 85%) 40; width: 200px; }
+.divider-JfaTT5 { border: 1px solid; border-image: linear-gradient(90deg, var(--accent) 15%, var(--tp) 85%) 40; width: 200px; }
 .group-spacing-8 .hasContent-1_DUdQ { margin-bottom: 0; }
-.unreadPill-2HyYtt { background-color: $accent; }
-.content-1o0f9g { background-color: $tp; color: white; margin-left: 35px; }
-.jumpToPresentBar-9P20AM { bottom: 20px; border-radius: 10px; background-color: $level2; opacity: .95; padding: 2px; width: fit-content; margin-left: 70%; margin-right: 0; }
-.newMessagesBar-mujexs { top: 10px; border-radius: 10px; background-color: $accent; width: fit-content; margin-left: 58%; }
+.unreadPill-2HyYtt { background-color: var(--accent); }
+.content-1o0f9g { background-color: var(--tp); color: white; margin-left: 35px; }
+.jumpToPresentBar-9P20AM { bottom: 20px; border-radius: 10px; background-color: var(--level2); opacity: .95; padding: 2px; width: fit-content; margin-left: 70%; margin-right: 0; }
+.newMessagesBar-mujexs { top: 10px; border-radius: 10px; background-color: var(--accent); width: fit-content; margin-left: 58%; }
 /* Colors in wumpus art */
     /* All-Online*/ .image-1GzsFd[style*='background-image: url("/assets/b5eb2f7d6b3f8cc9b60be4a5dcf28015.svg")'] { background-image: url('https://gistcdn.githack.com/Dries1234/1b10daaeeba58acac90bbf4d7a3dc1ad/raw/7e8acdbc2a9c6e17d2076d01781022238cbe49e9/All-Friends.svg') !important; background-size: cover; }
     /* Pending */ .image-1GzsFd[style*='background-image: url("/assets/b669713872b43ca42333264abf9c858e.svg")'] { background-image: url('https://gistcdn.githack.com/Dries1234/1b10daaeeba58acac90bbf4d7a3dc1ad/raw/7e8acdbc2a9c6e17d2076d01781022238cbe49e9/pending.svg') !important; background-size: cover; }

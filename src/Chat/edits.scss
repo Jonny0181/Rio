@@ -12,20 +12,20 @@
     }
     .scrollableContainer-2NUZem {
         width: 85%;
-        background-color: $level2;
-        box-shadow: 0 0 7px 0 $accent;
+        background-color: var(--level2);
+        box-shadow: 0 0 7px 0 var(--accent);
     }
     .autocomplete-1vrmpx {
         width: 85%;
-        background-color: $level2 !important;
-        box-shadow: 0 -3px 7px -3px $accent, 3px 0px 3px -3px $accent, -3px 0px 3px -3px $accent;
+        background-color: var(--level2) !important;
+        box-shadow: 0 -3px 7px -3px var(--accent), 3px 0px 3px -3px var(--accent), -3px 0px 3px -3px var(--accent);
         .selectorSelected-1_M1WV {
-            background-color: $level3;
-            border-left: 2px solid $accent;
+            background-color: var(--level3);
+            border-left: 2px solid var(--accent);
             border-radius: 0;
         }
     }
     .operations-36ENbA>a {
-        color: $accent;
+        color: var(--accent);
     }
 }

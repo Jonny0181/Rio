@@ -1,14 +1,14 @@
 .quickswitcher-3JagVE {
-    background: $level2;
+    background: var(--level2);
     border-radius: 5px;
     box-shadow: none;
-    .tutorialMessages-12mfId { color: $accent; }
+    .tutorialMessages-12mfId { color: var(--accent); }
     .scroller-zPkAnE { background: none; }
     .scrollerOuter-3FLELE {
         margin-right: -4px !important;
     }
     .input-2VB9rf {
-        background: $accent;
+        background: var(--accent);
         box-shadow: none;
         width: 100%;
         left: 0;
@@ -31,14 +31,14 @@
             border-radius: 0 2px 2px;
             -ms-transform: translate(40px);
             transform: translate(40px);
-            background-color: $accent;
+            background-color: var(--accent);
             background-repeat: no-repeat;
             background-position: 40%;
             background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgwVjB6IiBmaWxsPSJub25lIi8+ICAgIDxwYXRoIGQ9Ik0xMSA5bDEuNDIgMS40Mkw4LjgzIDE0SDE4VjRoMnYxMkg4LjgzbDMuNTkgMy41OEwxMSAyMWwtNi02IDYtNnoiLz48L3N2Zz4=);
         }
     }
     .resultFocused-3aIoYe {
-        background: $level3;
+        background: var(--level3);
         transition: all 50ms ease-in-out;
         &::after {
             opacity: 1;
@@ -50,7 +50,7 @@
     }
     .keybindShortcut-1BD6Z1 span {
         box-shadow: none;
-        background-color: $accent !important;
+        background-color: var(--accent) !important;
     }
 }
 .container-3qKHyN {

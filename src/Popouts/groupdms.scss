@@ -1,20 +1,20 @@
 .theme-dark .modal-yWgWj- {
-    background-color: $level2 !important;
+    background-color: var(--level2) !important;
     .container-2XeR5Z {
-        box-shadow: 0 0 7px 0 $accent;
+        box-shadow: 0 0 7px 0 var(--accent);
         .tag-2gHSR7 {
-            background-color: $accent;
+            background-color: var(--accent);
         }
     }
     label.checkboxWrapper-SkhIWG.alignCenter-MrlN6q {
-        background-color: $tp;
+        background-color: var(--tp);
     }
     .checkbox-1ix_J3 {
         border-radius: 50px;
     }
     .checked-3_4uQ9 {
-        background-color: $accent;
-        border-color: $accent !important;
+        background-color: var(--accent);
+        border-color: var(--accent) !important;
         polyline {
             stroke: white !important;
         }
@@ -23,10 +23,10 @@
         border-radius: 0;
     }
     .friendSelected-1sa4bG {
-        background-color: $level3;
-        border-left: 2px solid $accent;
+        background-color: var(--level3);
+        border-left: 2px solid var(--accent);
     }
     .lookFilled-1Gx00P.colorBrand-3pXr91 {
-        background-color: $accent;
+        background-color: var(--accent);
     }
 }
