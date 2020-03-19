@@ -99,12 +99,12 @@
         }
         &::before {
             content:
-                '                                                                 Thank you for installing my theme.\A'
+                '                                                                                               Thank you for installing my theme.\A'
                 'If you are having any issue with the theme, please join this server for support. (https://discord.gg/ZwV92Sn)\A'
                 '      If you would like to stay up to date with theme theme and get the latest news, join the server above.\A'
                 'If you need personal help with the theme, you may DM me, but it\'s not certain I will help you. (Jonny™#5484)\A'
-                '-----------------------------------------------------------------------------------------------------------------------------\A'
-                '                                               Theme Settings, config is located in main theme file.\A'
+                '--------------------------------------------------------------------------------------------------------------------------------------------------------------------\A'
+                '                                                                              Theme Settings, config is located in main theme file.\A'
                 '1) Accent color (--accent)\A'
                 '2) Chat avatar size (--chat-avatar-size)\A'
                 '3) Chat avatar shape (--chat-avatar-shape)\A'
@@ -117,17 +117,17 @@
                 '10) Space between servers (--HSL-spacing)\A'
                 '11) Server non hovered and selected shape (--HSL-roundness)\A'
                 '12) Server hover shape (--HSL-roundnessHover)\A'
-                '-----------------------------------------------------------------------------------------------------------------------------\A'
-                '                                                                                         Theme Info:\A'
-                'Version: v2.2.4\A'
+                '--------------------------------------------------------------------------------------------------------------------------------------------------------------------\A'
+                '                                                                                                                             Theme Info:\A'
+                'Version: 2.2.4\A'
                 'Injection: Powercord\A'
                 'Developer: Jonny™#5484\A'
                 'Contributors: [HV]Kurasad#2521, KelsoKay™#6676';
             display: block;
             color: white;
             white-space: pre;
-            font-size: 15px;
-            line-height: 2rem;
+            font-size: 12px;
+            line-height: 1.5rem;
             position: absolute;
             width: fit-content;
             pointer-events: all;
