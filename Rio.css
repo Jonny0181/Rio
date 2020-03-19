@@ -1,0 +1,18 @@
+/* -------------------------------------------------------------------------------------------------------------------------------------------
+       __                                ________                      
+      / /___  ____  ____  __  _______   /_  __/ /_  ___  ____ ___  ___ 
+ __  / / __ \/ __ \/ __ \/ / / / ___/    / / / __ \/ _ \/ __ `__ \/ _ \
+/ /_/ / /_/ / / / / / / / /_/ (__  )    / / / / / /  __/ / / / / /  __/
+\____/\____/_/ /_/_/ /_/\__, /____/    /_/ /_/ /_/\___/_/ /_/ /_/\___/ 
+                       /____/                                          
+
+Help:
+    The first thing you will need to know is all of your custom colors and everything will be in the Utils folder in the vars file.
+    You will need to change the rgb/rgba code to something you like. ( $accent: YourNewColor )
+    If you need help with anything, please do not hesitate to join the Discord server. ( https://discord.gg/8UJd8uA )
+    If you see any issue with the theme please join said server above and post an issue in the #bug-report channel.
+    Thank you using my theme and enjoy!
+
+------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@import '';

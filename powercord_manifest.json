@@ -1,8 +1,8 @@
 {
-    "name": "Jonny's Personal Theme",
+    "name": "Rio - Minimalistic theme by Jonny™",
     "description": "A theme that I made for myself, this theme has everything that I love from other themes.",
-    "version": "vB-1.3",
+    "version": "v2",
     "author": "Jonny™",
-    "theme": "jonny.scss",
+    "theme": "rio.scss",
     "license": "MIT"
 }

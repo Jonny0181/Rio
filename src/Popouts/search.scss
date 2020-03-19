@@ -1,0 +1,57 @@
+/* Results */
+    .searchResultsWrap-2DKFzt {
+        background-color: $level3;
+        .tab-2Ixsn0.selected-16te-P {
+            border-bottom: 2px solid $accent;
+        }
+        .tab-2Ixsn0 {
+            &:hover {
+                border-bottom: 2px solid $accent;
+            }
+        }
+        .channelSeparator-1X1FuH {
+            &::before { display: none; }
+            .channelName-1QajIf {
+                color: white;
+                background-color: $tp;
+                border-bottom: 2px solid $accent;
+            }
+        }
+        .searchResult-3pzFAB {
+            margin-bottom: 0;
+            margin-top: 5px;
+            &::before { display: none; }
+            &::after { display: none; }
+            .searchResultMessage-2VxO12.before-1x1q5S { display: none; }
+            .searchResultMessage-2VxO12.sibling-3tUBeh { display: none; }
+            .searchResultMessage-2VxO12.hit-NLlWXA {
+                background-color: $level1;
+                box-shadow: none;
+                border: none;
+                margin-right: 5px;
+                .jumpButton-Ia2hRJ {
+                    background-color: $accent;
+                    color: white;
+                    opacity: .5;
+                    transition: all .3s ease-in-out;
+                    &:hover {
+                        opacity: 1;
+                        transform: scale(1.1);
+                    }
+                }
+                .cozy-3raOZG .messageContent-2qWWxC {
+                    margin-right: 0;
+                }
+                .embedMedia-1guQoW {
+                    width: 315px !important;
+                }
+            }
+        }
+    }
+/* Search Bar */
+    .searchBar-3dMhjb {
+        background-color: $level1;
+        .searchFilter-2ESiM3, .searchAnswer-3Dz2-q { 
+            background-color: $accent;
+        }
+    }
