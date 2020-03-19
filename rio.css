@@ -33,4 +33,9 @@ Help:
         --members-width: 49px;
         --members-width-hover: 200px;
         --space-between-channels: 5px;
+    /* Server Lists */
+        --HSL-size: 35px;
+        --HSL-spacing: 10px;
+        --HSL-roundness: 10%;
+        --HSL-roundnessHover: 20%;
 }
