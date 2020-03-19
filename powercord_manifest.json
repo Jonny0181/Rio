@@ -3,6 +3,6 @@
     "description": "A theme that I made for myself, this theme has everything that I love from other themes.",
     "version": "v2",
     "author": "Jonny™",
-    "theme": "rio.scss",
+    "theme": "rio.css",
     "license": "MIT"
 }
