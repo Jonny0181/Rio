@@ -42,7 +42,9 @@
         background: var(--level3);
         transition: all .3s ease-in-out;
         border-left: 2px solid var(--accent);
-        .contentDefault-16dKSY {
+        border-radius: 0;
+        .contentDefault-16dKSY,
+        .contentUnread-3gTHvA {
             transform: scale(1.1);
             margin: 4px 22px;
             color: white;
