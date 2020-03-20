@@ -51,3 +51,18 @@
     code, [class*="markup"] code.inline, [class*="codeLine"], [class*="inlineCode"], [class*="codeBlockText"], .ace_editor { font-family: JetBrainsMono, monospace; }
     [class*="codeBlockLang"] {font-family: JetBrainsMono, monospace; font-size: 90% }
     .CodeMirror-code { font-family: JetBrainsMono, monospace; font-size: 75%; }
+/* Mentions */
+    .mentioned-xhSam7 {
+        background-color: rgba($color: var(--accent), $alpha: .3);
+        &:hover {
+            background-color: rgba($color: var(--accent), $alpha: .5);
+        }
+        &::before {
+            background-color: var(--accent);
+        }
+        .interactive:hover {
+            color: var(--accent);
+            text-decoration: none;
+        }
+    }
+    .wrapper-3WhCwL { color: var(--accent); background-color: rgba($color: var(--accent), $alpha: .1); }
