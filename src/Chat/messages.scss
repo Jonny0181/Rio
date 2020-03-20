@@ -53,17 +53,17 @@
     .CodeMirror-code { font-family: JetBrainsMono, monospace; font-size: 75%; }
 /* Mentions */
     .mentioned-xhSam7 {
-        background-color: rgba($color: var(--accent), $alpha: .3);
-        &:hover {
-            background-color: rgba($color: var(--accent), $alpha: .5);
-        }
+        background-color: rgba($color: var(--accent), $alpha: .05);
         &::before {
             background-color: var(--accent);
         }
         .wrapper-3WhCwL:hover {
-            color: var(--accent);
-            text-decoration: none;
+            color: var(--accent) !important;
+            text-decoration: none !important;
         }
+    }
+    .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, .mouse-mode.full-motion .mentioned-xhSam7:hover {
+        background-color: rgba($color: var(--accent), $alpha: .1);
     }
     .wrapper-3WhCwL {
         color: var(--accent);
