@@ -85,28 +85,33 @@
         &::after {
             content: "Rio - Minimalistic theme by Jonny™";
             display: block;
-            color: white;
+            color: var(--accent);
             white-space: pre;
             font-size: 35px;
+            font-weight: 600;
+            text-transform: capitalize;
             position: absolute;
+            width: -webkit-fit-content;
+            width: -moz-fit-content;
             width: fit-content;
             pointer-events: all;
             top: 59.5%;
             left: 25%;
-            animation: fadeInAnimation ease 2s; 
-            animation-iteration-count: 1; 
+            animation: fadeInAnimation ease 2s;
+            animation-iteration-count: 1;
             animation-fill-mode: forwards;
         }
         &::before {
             content:
-                '                                                                                               Thank you for installing my theme.\A'
+                '                                                                 Thank you for installing my theme.\A'
                 'If you are having any issue with the theme, please join this server for support. (https://discord.gg/ZwV92Sn)\A'
                 '      If you would like to stay up to date with theme theme and get the latest news, join the server above.\A'
                 'If you need personal help with the theme, you may DM me, but it\'s not certain I will help you. (Jonny™#5484)\A'
-                '--------------------------------------------------------------------------------------------------------------------------------------------------------------------\A'
-                '                                                                              Theme Settings, config is located in main theme file.\A'
+                '----------------------------------------------------------------------------------------------------------------------------\A'
+                '                                                    Theme Settings, config is located in main theme file.\A'
                 '1) Accent color (--accent)\A'
-                '2) Mention colors, to make this look right the first 3 numbers should be the same as accent. And then the alpha at the end for transparency. (--mention)\A'
+                '2) Mention colors, to make this look right the first 3 numbers should be the same as accent.\A'
+                    '       And then the alpha at the end for transparency. (--mention)\A'
                 '3) Chat avatar size (--chat-avatar-size)\A'
                 '4) Chat avatar shape (--chat-avatar-shape)\A'
                 '5) Channel width closed (--channel-width)\A'
@@ -119,8 +124,8 @@
                 '12) Space between servers (--HSL-spacing)\A'
                 '13) Server non hovered and selected shape (--HSL-roundness)\A'
                 '14) Server hover shape (--HSL-roundnessHover)\A'
-                '--------------------------------------------------------------------------------------------------------------------------------------------------------------------\A'
-                '                                                                                                                             Theme Info:\A'
+                '----------------------------------------------------------------------------------------------------------------------------\A'
+                '                                                                                         Theme Info:\A'
                 'Version: 2.3.3\A'
                 'Injection: Powercord\A'
                 'Developer: Jonny™#5484\A'
@@ -128,7 +133,9 @@
             display: block;
             color: white;
             white-space: pre;
-            font-size: 12px;
+            font-size: 15px;
+            font-weight: 100;
+            text-transform: initial;
             line-height: 1.5rem;
             position: absolute;
             width: fit-content;

@@ -22,8 +22,8 @@ Help:
         --level1: rgb(42, 42, 42);
         --level2: rgb(32, 32, 32);
         --level3: rgb(24, 24, 24);
-        --accent: rgb(141, 18, 197);
-        --mention: rgba(141, 18, 197, 0.1);
+        --accent: rgb(172, 53, 53);
+        --mention: rgba(172, 53, 53, 0.1);
         --tp: transparent;
     /* Chat */
         --chat-avatar-size: 40px;

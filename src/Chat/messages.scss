@@ -65,8 +65,8 @@
         color: var(--accent);
         background-color: var(--mention);
         &:hover {
-            color: var(--accent);
+            color: var(--accent) !important;
             background-color: var(--mention);
-            text-decoration: none !important;
+            text-decoration: underline !important;
         }
     }
