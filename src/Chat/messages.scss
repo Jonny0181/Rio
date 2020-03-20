@@ -53,20 +53,20 @@
     .CodeMirror-code { font-family: JetBrainsMono, monospace; font-size: 75%; }
 /* Mentions */
     .mentioned-xhSam7 {
-        background-color: rgba($color: var(--accent), $alpha: .05);
+        background-color: var(--mention);
         &::before {
             background-color: var(--accent);
         }
     }
     .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, .mouse-mode.full-motion .mentioned-xhSam7:hover {
-        background-color: rgba($color: var(--accent), $alpha: .1);
+        background-color: var(--mention);
     }
     .wrapper-3WhCwL {
         color: var(--accent);
-        background-color: rgba($color: var(--accent), $alpha: .1);
+        background-color: var(--mention);
         &:hover {
             color: var(--accent);
-            background-color: rgba($color: var(--accent), $alpha: .3);
+            background-color: var(--mention);
             text-decoration: none !important;
         }
     }
