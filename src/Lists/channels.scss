@@ -39,7 +39,7 @@
 .containerDefault-3GGEv_, .containerDragAfter-3TEhpe, .containerDragBefore-3Dzc5x, .containerUserOver-1Tcb7l { padding-top: var(--space-between-channels); }
 .sidebar-2K8pFh {
     width: var(--channel-width) !important;
-    transition: ease-in-out;
+    transition: all .5s ease-in-out;
     transition-delay: var(--delay);
     &:hover {
         width: var(--channel-width-hover) !important;
@@ -67,7 +67,7 @@
     opacity: .5;
     font-size: 12px;
     line-height: 100%;
-    transition: ease-in-out;
+    transition: all .2s ease-in-out;
     transition-delay: var(--delay);
     pointer-events: none;
 }
