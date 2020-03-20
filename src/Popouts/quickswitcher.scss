@@ -38,8 +38,15 @@
         }
     }
     .resultFocused-3aIoYe {
+        height: 40px;
         background: var(--level3);
-        transition: all 50ms ease-in-out;
+        transition: all .3s ease-in-out;
+        border-left: 2px solid var(--accent);
+        .contentDefault-16dKSY {
+            transform: scale(1.1);
+            margin: 4px 22px;
+            color: white;
+        }
         &::after {
             opacity: 1;
             transition: 100ms ease 100ms;
