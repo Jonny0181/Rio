@@ -14,15 +14,3 @@
     }
 /* Plugins */
     .discordTweaksSettings .tweaks .tweakCard { background-color: var(--level2); }
-    /* Counters */
-    body { counter-reset: plu; }
-    .powercord-plugin:after{
-        counter-increment: plu;
-        content: counter(plu) " Plugins";
-        color:transparent;
-        position:fixed;
-        margin-right: 10px;
-        top: 60px;
-        right: 40px;
-    }
-    .powercord-plugin:nth-last-child(1):after{ color: var(--text-normal); }

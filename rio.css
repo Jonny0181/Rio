@@ -22,7 +22,7 @@ Help:
         --level1: rgb(42, 42, 42);
         --level2: rgb(32, 32, 32);
         --level3: rgb(24, 24, 24);
-        --accent: rgb(108, 23, 152);
+        --accent: #8d12c5;
         --tp: transparent;
     /* Chat */
         --chat-avatar-size: 40px;

@@ -67,7 +67,6 @@
         &:hover {
             color: var(--accent);
             background-color: rgba($color: var(--accent), $alpha: .3);
-            color: var(--accent) !important;
             text-decoration: none !important;
         }
     }
