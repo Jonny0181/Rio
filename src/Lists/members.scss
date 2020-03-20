@@ -5,6 +5,7 @@
     border-bottom-left-radius: 10px;
     width: var(--members-width);
     transition: all .5s ease-in-out;
+    transition-delay: var(--delay);
     &:hover {
         width: var(--members-width-hover);
         .selected-aXhQR6 {
@@ -25,6 +26,7 @@
     }
     .member-3-YXUe {
         transition: all .5s ease-in-out;
+        transition-delay: var(--delay);
         .mulitplePlaceholderUsername-pogq9I,
         .placeholderAvatar-damqh6,
         .placeholderUsername-2B_OA9 {

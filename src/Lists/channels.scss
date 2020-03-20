@@ -40,6 +40,7 @@
 .sidebar-2K8pFh {
     width: var(--channel-width) !important;
     transition: all .5s ease-in-out;
+    transition-delay: var(--delay);
     &:hover {
         width: var(--channel-width-hover) !important;
     }
@@ -67,6 +68,7 @@
     font-size: 12px;
     line-height: 100%;
     transition: all .2s ease-in-out;
+    transition-delay: var(--delay);
     pointer-events: none;
 }
 .container-PNkimc { background-color: var(--level2) !important; }
