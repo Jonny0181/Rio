@@ -1,9 +1,25 @@
-.peopleColumn-29fq28 { background-color: var(--level1); }
-.peopleListItem-2nzedh { border-top: none; margin-left: 10px; }
-.actionButton-uPB8Fs { background-color: var(--level3); }
-.actionButton-uPB8Fs.highlight-Lf97TE { background-color: var(--level3); }
-.peopleListItem-2nzedh.active-rhSpJJ, .peopleListItem-2nzedh:hover { border-left: 2px solid var(--accent); border-radius: 0; background-color: var(--level2); }
-.nowPlayingColumn-2sl4cE { background: var(--level2); }
 .wrapper-3D2qGf { background-color: var(--level1); }
-.theme-dark .inset-3sAvek { background-color: var(--level2); }
-.nowPlayingColumn-2sl4cE { min-width: 0; max-width: none; width: 250px !important; flex: none; }
+.peopleColumn-29fq28 {
+    background-color: var(--level1);
+    .peopleListItem-2nzedh {
+        transition: all .3s ease;
+        border-top: none;
+        margin-left: 10px;
+    }
+    .actionButton-uPB8Fs {
+        background-color: var(--level3);
+    }
+    .actionButton-uPB8Fs.highlight-Lf97TE {
+        background-color: var(--level3);
+    }
+}
+.nowPlayingColumn-2sl4cE {
+    background: var(--level2);
+    min-width: 0;
+    max-width: none;
+    width: 250px !important;
+    flex: none;
+    .body-1ld4H7 {
+        background-color: var(--level2);
+    }
+}
