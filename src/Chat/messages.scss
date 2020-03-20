@@ -65,4 +65,11 @@
             text-decoration: none;
         }
     }
-    .wrapper-3WhCwL { color: var(--accent); background-color: rgba($color: var(--accent), $alpha: .1); }
+    .wrapper-3WhCwL {
+        color: var(--accent);
+        background-color: rgba($color: var(--accent), $alpha: .1);
+        &:hover {
+            color: var(--accent);
+            background-color: rgba($color: var(--accent), $alpha: .3);
+        }
+    }
