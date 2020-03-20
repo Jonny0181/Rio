@@ -70,21 +70,21 @@
         &::before {
             content: "";
             position: absolute;
-            top: 56.5%;
-            left: 12%;
-            width: 10%;
-            height: 10%;
+            top: 54.5%;
+            left: 11%;
+            width: 15%;
+            height: 15%;
             opacity: 1;
-            background: url(https://i.imgur.com/BFIZp18.gif) no-repeat;
+            background: url(https://i.imgur.com/wZAVlUw.png) no-repeat;
             background-size: contain;
-            animation: fadeInAnimation ease 2s; 
-            animation-iteration-count: 1; 
+            animation: fadeInAnimation ease 2s;
+            animation-iteration-count: 1;
             animation-fill-mode: forwards;
         }
     }
     #app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div:nth-child(2) > div:nth-child(3) > div > div.contentRegion-3nDuYy > div > div > div > main > div > div.userSettingsAccount-2eMFVR > h2 {
         &::after {
-            content: "Rio - Minimalistic theme by Jonny™";
+            content: "     A Minimalistic theme by Jonny™";
             display: block;
             color: var(--accent);
             white-space: pre;
