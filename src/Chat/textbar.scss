@@ -47,3 +47,8 @@
             box-shadow: 0 -3px 7px -3px var(--accent), 3px 0px 3px -3px var(--accent), -3px 0px 3px -3px var(--accent);
         }
     }
+
+/* Focused Boxes */
+    .input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus {
+        border-color: transparent;
+    }
