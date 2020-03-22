@@ -136,3 +136,13 @@
     z-index:1; box-shadow:0 4px 4px -4px rgba(0,0,0,0.25); pointer-events:none; border-top-right-radius:8px;
 }
 #app-mount > div:nth-child(5) > div:nth-child(2) > div.modal-3c3bKg > div.inner-1ilYF7 > div > div.body-3ND3kc > div > div { overflow-y: scroll; }
+.theme-dark div[class|='connectedAccounts'] img[alt='GitHub Logo'] {
+    content: url(https://powercord.dev/assets/github_white.png);
+    border-radius: 3px;
+    margin-top: 0px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    border-color: transparent;
+}

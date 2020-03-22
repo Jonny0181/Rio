@@ -2,9 +2,18 @@
 .peopleColumn-29fq28 {
     background-color: var(--level1);
     .peopleListItem-2nzedh {
-        transition: all .3s ease;
+        transition: all 0.3s ease;
         border-top: none;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
         margin-left: 10px;
+        &:hover {
+            background: var(--level2);
+            box-shadow: none;
+            border-radius: 8px;
+            border-left: 2px solid var(--accent);
+            padding: 16px 10px;
+        }
     }
     .actionButton-uPB8Fs {
         background-color: var(--level3);

@@ -1,10 +1,27 @@
-.embedFull-2tM8-- {
-    border-radius: 0;
-    border-left: none;
-    border-bottom: 3px solid #000;
-    background: rgba(0,0,0,0.3);
-    box-shadow: var(--elevation-high);
-}
-.embed-IeVjo6 code {
-    background-color: var(--level3) !important;
-}
+/* Rich Embed */
+    .embedFull-2tM8-- {
+        border-radius: 0;
+        border-left: none;
+        border-bottom: 3px solid #000;
+        background: rgba(0,0,0,0.3);
+        box-shadow: var(--elevation-high);
+    }
+    .embed-IeVjo6 code {
+        background-color: var(--level3) !important;
+    }
+/* Spotify Invite */
+    .theme-dark .invite-18yqGF {
+        background: var(--level2);
+        border: none;
+        .lookFilled-1Gx00P.colorGrey-2DXtkV:disabled {
+            background-color: var(--level2);
+        }
+        .lookFilled-1Gx00P.colorGreen-29iAKY {
+            background-color: var(--accent);
+            color: white;
+            &:hover {
+                background-color: var(--accent);
+                color: white;
+            }
+        }
+    }
