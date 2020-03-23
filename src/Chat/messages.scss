@@ -77,3 +77,11 @@
     .container-1ov-mD {
         padding-bottom: 7px;
     }
+/* Clicked message links */
+    .backgroundFlash-24qWLN {
+        background-color: var(--mention) !important;
+        transition: background-color .3s ease-in-out;
+    }
+    .backgroundFlash-24qWLN[style*="background-color: rgba(114, 137, 218, 0)"] {
+        background-color: transparent !important;
+    }
