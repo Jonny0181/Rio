@@ -19,3 +19,19 @@
 /* Custom CSS */
     .cm-s-shadowfox.CodeMirror { background-color: var(--level2); height: 700px; }
     .cm-s-shadowfox .CodeMirror-gutters { background-color: var(--level3); border: none; }
+/* Dev Tag */
+    .avatar-1BDn8e[src*="146040787891781632"] + h2 > span.username-1A8OIy::after {
+        color: white !important;
+        background-color: var(--accent);
+        content: 'Rio Dev';
+        font-size: 12px;
+        font-weight: 500;
+        height: 14px;
+        padding: 2px 8px;
+        border-radius: 4px;
+        text-transform: capitalize;
+        line-height: 12px;
+        margin-left: 4px;
+        display: inline-block;
+        margin-bottom: 5px;
+    }
