@@ -1,5 +1,5 @@
 # Rio™️
-Just another discord theme I have been working on. For now this theme is only supporting powercord.
+Just another discord theme I have been working on.
 
 Help:
     The first thing you will need to know is all of your custom colors and everything will be in the Utils folder in the vars file.
