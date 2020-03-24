@@ -60,10 +60,12 @@
             transform: rotate(0deg) scale(1.5);
             opacity: .7;
             color: white;
-            pointer-events: all;
-            cursor: pointer;
-            &:hover {
-                animation: wiggle 0.8s infinite;
+            .searchBar-3dMhjb .icon-38sknP {
+                pointer-events: all;
+                cursor: pointer;
+                &:hover {
+                    animation: wiggle 0.8s infinite;
+                }
             }
         }
         .focused-31_ccS .searchBar-3dMhjb, .open-6_Y_aH .searchBar-3dMhjb {
