@@ -53,27 +53,13 @@
         }
     }
 /* Search Bar */
-    .search-36MZv- {
-        .searchBar-3dMhjb {
-            width: 25px;
-            background-color: transparent;
-            .searchFilter-2ESiM3, .searchAnswer-3Dz2-q { 
-                background-color: var(--accent);
-            }
-        }
-        .focused-31_ccS .searchBar-3dMhjb, .open-6_Y_aH .searchBar-3dMhjb {
-            background-color: var(--level1) !important;
-        }
-        .searchBar-3dMhjb .icon-38sknP {
-            width: 17px;
-            height: 23px;
-            pointer-events: all;
-            cursor: pointer;
-            .icon-3cZ1F_.visible-3V0mGj {
-                opacity: .7;
-                color: white;
-                transform: scale(1.5);
-            }
+    .searchBar-3dMhjb {
+        background-color: transparent;
+        width: 20px;
+        .icon-3cZ1F_.visible-3V0mGj {
+            transform: rotate(0deg) scale(1.5);
+            opacity: .7;
+            color: white;
         }
     }
     .theme-dark .container-3ayLPN {
