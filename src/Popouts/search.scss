@@ -64,9 +64,6 @@
         .icon-38sknP {
             pointer-events: all;
             cursor: pointer;
-            &:hover {
-                transform: scale(2);
-            }
         }
         .focused-31_ccS .searchBar-3dMhjb, .open-6_Y_aH .searchBar-3dMhjb {
             background-color: var(--level1) !important;
@@ -77,7 +74,7 @@
             }
         }
         .theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3 {
-            background-color: var(--accent);
+            background-color: var(--accent) !important;
         }
     }
     .theme-dark .container-3ayLPN {
