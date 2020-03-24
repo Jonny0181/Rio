@@ -7,3 +7,4 @@
 @keyframes exiting { from { filter: blur(0px); opacity: 1; } to { filter: blur(10px); opacity: 0; } }
 @keyframes popoutanim-min { 0% { transform: translateX(-40%)  translateY(12px) translateZ(1px) perspective(1px) scale(0); } 100% { transform: translateX(-40%)  translateY(12px) translateZ(1px) perspective(1px) scale(1); } }
 @keyframes fadeInAnimation { 0% { opacity: 0; } 100% { opacity: 1; } }
+@keyframes wiggle { 0% {-webkit-transform: rotate(5deg); } 25% {-webkit-transform: rotate(-5deg); } 50% {-webkit-transform: rotate(5deg); } 75% {-webkit-transform: rotate(-5deg); } 100% { -webkit-transform: rotate(5deg); } }

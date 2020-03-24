@@ -115,7 +115,7 @@
 .activityProfile-2bJRaP .contentImagesProfile-1Mz07W { margin-left:10px; }
 .activityProfile-2bJRaP .timestamp-VjAZmo { position:absolute; top:50%; transform:translateY(-50%); right:25px; }
 .topSectionSpotify-1lI0-P .activityProfile-2bJRaP .button-1Pkqso {
-    border-radius:6px; box-shadow:0 0 6px rgba(0,0,0,0.35); border:none; background:var(--secondary-color); width:24px; height:24px;
+    border-radius:6px; box-shadow:0 0 6px rgba(0,0,0,0.35); border:none; background: transparent; backdrop-filter: blur(20px); width:24px; height:24px;
     min-height:unset; transition:150ms ease; font-size:0; display:flex; align-items:center; min-width:unset; padding:0; }
 .topSectionSpotify-1lI0-P .activityProfile-2bJRaP .button-1Pkqso:hover { box-shadow:0 2px 14px rgba(0,0,0,0.45); }
 .topSectionSpotify-1lI0-P .activityProfile-2bJRaP .button-1Pkqso .contents-18-Yxp { overflow:visible; }
