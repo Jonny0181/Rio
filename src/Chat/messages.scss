@@ -28,7 +28,26 @@
 .unreadPill-2HyYtt { background-color: var(--accent); }
 .content-1o0f9g { background-color: var(--tp); color: white; margin-left: 35px; }
 .jumpToPresentBar-9P20AM { bottom: 20px; border-radius: 10px; background-color: var(--level2); opacity: .95; padding: 2px; width: fit-content; margin-left: 70%; margin-right: 0; }
-.newMessagesBar-mujexs { top: 10px; border-radius: 10px; background-color: var(--accent); width: fit-content; margin-left: 58%; }
+/* Message Bars*/
+    .newMessagesBar-mujexs {
+        top: 10px;
+        border-radius: 10px;
+        background-color: var(--accent);
+        width: fit-content;
+        margin-left: 58%;
+    }
+    .barBase-39XTcM {
+        position: absolute;
+        right: 20vw;
+        left: inherit;
+        display: inline-flex;
+        z-index: 2;
+        min-height: 24px;
+        text-transform: capitalize;
+        transition: opacity .15s;
+        opacity: .95;
+        cursor: pointer;
+    }
 /* Colors in wumpus art */
     /* All-Online*/ .image-1GzsFd[style*='background-image: url("/assets/b5eb2f7d6b3f8cc9b60be4a5dcf28015.svg")'] { background-image: url('https://gistcdn.githack.com/Dries1234/1b10daaeeba58acac90bbf4d7a3dc1ad/raw/7e8acdbc2a9c6e17d2076d01781022238cbe49e9/All-Friends.svg') !important; background-size: cover; }
     /* Pending */ .image-1GzsFd[style*='background-image: url("/assets/b669713872b43ca42333264abf9c858e.svg")'] { background-image: url('https://gistcdn.githack.com/Dries1234/1b10daaeeba58acac90bbf4d7a3dc1ad/raw/7e8acdbc2a9c6e17d2076d01781022238cbe49e9/pending.svg') !important; background-size: cover; }
