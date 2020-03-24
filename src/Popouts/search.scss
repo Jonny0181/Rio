@@ -65,17 +65,19 @@
             pointer-events: all;
             cursor: pointer;
             &:hover {
-                animation: wiggle 0.8s infinite;
                 transform: scale(2);
             }
         }
         .focused-31_ccS .searchBar-3dMhjb, .open-6_Y_aH .searchBar-3dMhjb {
-            background-color: var(--level1);
+            background-color: var(--level1) !important;
             .icon-3cZ1F_.visible-3V0mGj {
                 transform: scale(1);
                 opacity: .5;
                 color: white;
             }
+        }
+        .theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3 {
+            background-color: var(--accent);
         }
     }
     .theme-dark .container-3ayLPN {
