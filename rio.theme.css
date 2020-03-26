@@ -43,8 +43,9 @@ Help:
         --space-between-channels: 5px;
         --delay: 200ms;
     /* Server Lists */
-        --HSL-size: 35px;
+        --HSL-size: 33px;
         --HSL-spacing: 10px;
-        --HSL-roundness: 10%;
+        --HSL-roundness: 50%;
         --HSL-roundnessHover: 20%;
 }
+.privateChannels-1nO12o { height: 0; }

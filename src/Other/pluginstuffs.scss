@@ -19,3 +19,21 @@
 /* Custom CSS */
     .cm-s-shadowfox.CodeMirror { background-color: var(--level2); height: 700px; }
     .cm-s-shadowfox .CodeMirror-gutters { background-color: var(--level3); border: none; }
+/* Personal Notes */
+    .theme-dark .themedPopout-1TrfdI {
+        background-color: var(--level2);
+        border: none;
+    }
+    .theme-light .quickSelectPopout-u2dtIf, .theme-dark .quickSelectPopout-u2dtIf {
+        background-color: var(--level2)
+    }
+    .quickSelectPopout-u2dtIf .quickSelectPopoutOption-opKBx9.selected {
+        color: var(--interactive-active);
+        background-color: var(--level1);
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-left: 2px solid var(--accent);
+    }
+    .top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ, .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:active {
+        border-bottom-color: var(--accent);
+    }
