@@ -21,7 +21,7 @@
     .cm-s-shadowfox .CodeMirror-gutters { background-color: var(--level3); border: none; }
 /* Personal Notes */
     .theme-dark .themedPopout-1TrfdI {
-        background-color: var(--level2);
+        background-color: var(--level2) !important;
         border: none;
     }
     .theme-light .quickSelectPopout-u2dtIf, .theme-dark .quickSelectPopout-u2dtIf {
