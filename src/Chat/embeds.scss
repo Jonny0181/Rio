@@ -27,9 +27,28 @@
     }
 /* Server Invites */ 
     .wrapper-35wsBm {
-        background-color: var(--level2);
-        .guildIcon-lQ0uiM {
-            background-color: transparent !important;
+        display: contents;
+        .header-2BTCnc {
+            display: none;
+        }
+        .content-2U5lSY {
+            .guildIcon-lQ0uiM {
+                background-color: transparent !important;
+            }
+            .directionColumn-35P_nr {
+                max-width: fit-content;
+            }
+            .lookFilled-1Gx00P.colorGreen-29iAKY {
+                background-color: transparent;
+                background: url(https://canary.discordapp.com/assets/d2847ce….svg);
+                margin-left: 20px;
+                transition: all .3s ease-in-out;
+                &:hover {
+                    background-color: transparent;
+                    transform: scale(1.3);
+                }
+            }
+            .lookFilled-1Gx00P .contents-18-Yxp, .lookInverted-2D7oAl .contents-18-Yxp, .lookLink-9FtZy- .contents-18-Yxp, .lookOutlined-3sRXeN .contents-18-Yxp { display: none; }
         }
     }
 /* Loading icon */

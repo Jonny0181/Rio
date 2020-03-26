@@ -36,8 +36,8 @@ Help:
         --chat-avatar-size: 40px;
         --chat-avatar-shape: 10px;
     /* Channels and Members */
-        --channel-width: 49px;
-        --channel-width-hover: 220px;
+        --channel-width: 50px;
+        --channel-width-hover: 200px;
         --members-width: 49px;
         --members-width-hover: 200px;
         --space-between-channels: 5px;
