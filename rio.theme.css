@@ -26,11 +26,11 @@ Help:
 
 :root {
     /* Colors */
-        --level1: rgb(42, 42, 42);
-        --level2: rgb(32, 32, 32);
-        --level3: rgb(24, 24, 24);
-        --accent: rgb(172, 53, 53);
-        --mention: rgba(172, 53, 53, 0.1);
+        --level1: rgba(42, 42, 42);
+        --level2: rgba(32, 32, 32);
+        --level3: rgba(24, 24, 24);
+        --accent: rgba(53, 128, 172);
+        --mention: rgba(53, 128, 172, 0.1);
         --tp: transparent;
     /* Chat */
         --chat-avatar-size: 40px;

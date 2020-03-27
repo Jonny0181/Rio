@@ -4,8 +4,6 @@
     .peopleListItem-2nzedh {
         transition: all 0.3s ease;
         border-top: none;
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 0;
         margin-left: 10px;
         &:hover {
             background: var(--level2);
@@ -13,6 +11,8 @@
             border-radius: 8px;
             border-left: 2px solid var(--accent);
             padding: 16px 10px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
         }
     }
     .actionButton-uPB8Fs {
