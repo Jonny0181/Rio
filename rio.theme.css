@@ -1,7 +1,7 @@
 /**
  * @name Rio
  * @author Jonny™#5484
- * @version 2.5.1
+ * @version 2.5.2
  * @description A Minimalistic theme by Jonny™.
 */
 
@@ -42,9 +42,4 @@ Help:
         --members-width-hover: 200px;
         --space-between-channels: 5px;
         --delay: 200ms;
-    /* Server Lists */
-        --HSL-size: 33px;
-        --HSL-spacing: 10px;
-        --HSL-roundness: 50%;
-        --HSL-roundnessHover: 20%;
 }
