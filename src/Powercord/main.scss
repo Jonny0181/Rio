@@ -14,3 +14,23 @@
     }
 /* Plugins */
     .discordTweaksSettings .tweaks .tweakCard { background-color: var(--level2); }
+/* Spotify */
+    .powercord-spotify-playlist {
+        width: 100%;
+        border: none;
+        height: 73px;
+        background: var(--level1);
+        .image {
+            margin-right: 10px;
+            border-radius: 50%;
+            border: none;
+            margin-left: 15px;
+            height: 60px;
+            width: 60px;
+        }
+        .name {
+            font-size: 30px;
+            font-weight: 400;
+            margin-right: 5px;
+        }
+    }
