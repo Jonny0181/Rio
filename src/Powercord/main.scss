@@ -34,3 +34,11 @@
             margin-right: 5px;
         }
     }
+/* Badges */ 
+    div[class^=topSectionNormal-] .powercord-badge.donor {
+        background-image: var(--custom);
+        background-repeat: no-repeat;
+        height: 19px;
+        width: 21px;
+        transform: scale(1.2);
+    }

@@ -17,7 +17,7 @@ Help:
 
 @import 'Utils/keyframes'; @import 'Chat/avatars'; @import 'Chat/edits'; @import 'Popouts/spotify';
 @import 'Chat/embeds'; @import 'Chat/messages'; @import 'Chat/textbar'; @import 'Chat/tooltip';
-@import 'Chat/toolbar'; @import 'Guilds/guilds'; @import 'Guilds/JoinCreate'; @import 'Lists/channels';
+@import 'Chat/toolbar'; @import 'Guilds/guilds'; @import 'Guilds/joincreate'; @import 'Lists/channels';
 @import 'Lists/emoji'; @import 'Lists/friends'; @import 'Lists/members'; @import 'Other/icons';
 @import 'Other/menus'; @import 'Other/panelbuttons'; @import 'Other/pluginstuffs'; @import 'Popouts/quickswitcher';
 @import 'Other/radialstatus'; @import 'Other/titlebar'; @import 'Pages/nitro'; @import 'Pages/serverboost';
@@ -25,4 +25,5 @@ Help:
 @import 'Popouts/pins'; @import 'Popouts/search'; @import 'Popouts/upload'; @import 'Powercord/main';
 @import 'Settings/guild'; @import 'Settings/user'; @import 'User/modals'; @import 'User/popout';
 @import 'Other/tags'; @import 'Popouts/msgdelete'; @import 'Other/login'; @import 'Popouts/status';
-@import 'Popouts/servertemplate'; @import 'Popouts/reactions';
+@import 'Popouts/servertemplate'; @import 'Popouts/reactions'; @import 'Chat/notices'; @import 'Popouts/dragndrop';
+@import 'Popouts/help'; @import 'Popouts/phone';
