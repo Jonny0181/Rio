@@ -91,18 +91,18 @@
 	position:relative;
 }
 
-.container-3baos1 .avatarWrapper-2yR4wp[aria-expanded="true"] .avatar-SmRMf2 {
-	position:absolute;
-	left: 9.7vw;
-    bottom: 153px;
-	transform:translateX(-50%);
-	z-index:1003;
-	height:50px !important;
-	width:50px !important;
-	opacity:1;
-	box-shadow:0 2px 4px rgba(0,0,0,0.25);
-	cursor:default;
-	animation:statuspickeravatar 350ms ease forwards;
+.container-3baos1 .avatarWrapper-2yR4wp[aria-expanded=true] .avatar-SmRMf2 {
+    position: relative;
+	bottom: 171px;
+	left: 112px;
+    transform: translateX(-50%);
+    z-index: 1003;
+    height: 50px!important;
+    width: 50px!important;
+    opacity: 1;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+    cursor: default;
+    animation: statuspickeravatar 350ms ease forwards;
 }
 
 .container-3baos1 .avatarWrapper-2yR4wp[aria-expanded="true"] {
