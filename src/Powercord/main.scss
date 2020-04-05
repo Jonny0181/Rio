@@ -42,3 +42,10 @@
         width: 21px;
         transform: scale(1.2);
     }
+/* Command Messages */
+    .localBot-GrCgVt {
+        background-color: var(--mention);
+        &::before {
+            background-color: var(--accent);
+        }
+    }
