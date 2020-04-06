@@ -13,6 +13,6 @@
 
 #pluginNotice {
     animation: open-updates 400ms ease;
-    border-radius: 50px;
+    border-radius: 50px !important;
     box-shadow: var(--elevation-low);
 }
