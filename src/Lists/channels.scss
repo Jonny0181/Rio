@@ -124,7 +124,7 @@ div[class^=app-] div[class*=listeningAlong-] {
     .privateChannels-1nO12o .selected-aXhQR6 .layout-2DM8Md { background: none !important; }
     .modeSelected-1zApJ_ .content-3at_AU, .modeSelected-1zApJ_:hover .content-3at_AU { background-color: var(--mention); }
     .wrapper-1ucjTd.modeSelected-1zApJ_:before { content: " "; position: absolute; }
-    .unread-3zKkbm, .wrapper-1ucjTd.modeSelected-1zApJ_:before { height: 34px; }
+    .unread-3zKkbm, .wrapper-1ucjTd.modeSelected-1zApJ_:before { height: 34px; bottom: .5px; }
     .unread-3zKkbm { background-color: var(--accent); width: 2px; border-radius: 0; left: 0; top: 0; margin-top: 0; }
     .iconVisibility-1bOqu7 .content-3at_AU { background: none !important; }
     .privateChannels-1nO12o .clickable-1JJAn8:hover .layout-2DM8Md { background: none !important; }

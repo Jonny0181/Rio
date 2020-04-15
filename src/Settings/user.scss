@@ -46,7 +46,7 @@
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch { background: var(--level2); }
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected { transition: all .05s ease-in-out; background-color: var(--level2); border-radius: 0; border-left: solid 2px var(--accent); height: 42px !important; padding-top: 10px; }
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover { background-color: var(--level2); }
-.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ { transition: all .05s ease-in-out; background-color: var(--level2); border-radius: 0; border-left: solid 2px var(--accent); }
+.side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ { transition: all .05s ease-in-out; background-color: var(--mention); border-radius: 0; border-left: solid 2px var(--accent); }
 #user-settings #bd-settings-sidebar .ui-tab-bar-item.selected::before, #user-settings .item-PXvHYJ.selected-3s45Ha::before { margin-top: 4px !important; }
 .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover { background-color: var(--level2); border-radius: 0; }
 .themeDefault-24hCdX.valueChecked-m-4IJZ { background-color: var(--accent); }
@@ -123,7 +123,7 @@
                 '9) Time wait before opening the lists (--delay)\A'
                 '----------------------------------------------------------------------------------------------------------------------------\A'
                 '                                                                                         Theme Info:\A'
-                'Version: 2.6.6\A'
+                'Version: 2.6.7\A'
                 'Developer: Jonny™#5484\A'
                 'Contributors: [HV]Kurasad#2521, KelsoKay™#6676';
             display: block;
